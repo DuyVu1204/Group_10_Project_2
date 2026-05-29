@@ -9,23 +9,31 @@ Nội dung dự án gồm:
 ## 1. Cấu trúc thư mục
 
 ```text
-Project_2/
-	README.md
-	Group_10_Project_2/
-		requirements.txt
-		part1/
-			part1_notebook.ipynb
-			ols_implementation.py
-			ridge_lasso.py
-			cross_validation.py
-			residual_analysis.py
-		part2/
-			part2_notebook.ipynb
-			run_all.py
-			data_pipeline.py
-			model_comparison.py
-			metrics.py
-			tests/
+Group_10/
+├── README.md                  
+├── requirements.txt                 
+├── report.pdf             
+├── part1/                
+│   ├── ols_implementation.py              
+│   ├── ridge_lasso.py   
+│   ├── residual_analysis.py       
+│   ├── cross_validation.py                                                  
+│   └── part1_notebook.ipynb            
+├── part2/                   
+│   ├── data/
+│ 	│	└──	 dataset.csv
+│   ├── tests/
+│ 	│	├──  test_data_pipeline.py
+│ 	│	├──  test_metrics.py
+│ 	│	└──	 test_models.py  
+│   ├──  config.py
+│   ├──  data_pipeline.py
+│   ├──  dataset_info.md
+│   ├──  eda_utils.py
+│   ├──  metrics.py        
+│   ├──  missing_outlier_explanation.md            
+│   ├──  model_comparison.py
+│   └──  part2_notebook.ipynb       
 ```
 
 ## 2. Yêu cầu môi trường
